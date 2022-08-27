@@ -1,0 +1,2 @@
+RewriteCond %{HTTP_HOST} ^jardinsdepoincare.com
+RewriteRule ^(.*) https://doublebarrelbuckshot.github.io/jardinsdepoincare [P]
