@@ -1,6 +1,0 @@
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^jardinsdepoincare.com
-RewriteRule ^(.*) https://doublebarrelbuckshot.github.io/jardinsdepoincare [P]
-
-RewriteCond %{HTTP_HOST} ^www.jardinsdepoincare.com
-RewriteRule ^(.*) https://doublebarrelbuckshot.github.io/jardinsdepoincare [R=301,L]
